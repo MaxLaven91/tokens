@@ -2,6 +2,20 @@
    "spacing": {
         "none": { "value": "{size.spacing.0}", "type": "dimension", "comment": "0px" },
         "xxs": { "value": "{size.spacing.0.5}", "type": "dimension", "comment": "2px" },
-        "xs": { "value": "{size.spacing.1}", "type": "dimension", "comment": "4px" }
+        "xs": { "value": "{size.spacing.1}", "type": "dimension", "comment": "4px" },
+        "sm": { "value": "{size.spacing.1.5}", "type": "dimension", "comment": "6px" },
+        "md": { "value": "{size.spacing.2}", "type": "dimension", "comment": "8px" },
+        "lg": { "value": "{size.spacing.3}", "type": "dimension", "comment": "12px" },
+        "xl": { "value": "{size.spacing.4}", "type": "dimension", "comment": "16px" },
+        "2xl": { "value": "{size.spacing.5}", "type": "dimension", "comment": "20px" },
+        "3xl": { "value": "{size.spacing.6}", "type": "dimension", "comment": "24px" },
+        "4xl": { "value": "{size.spacing.8}", "type": "dimension", "comment": "32px" },
+        "5xl": { "value": "{size.spacing.10}", "type": "dimension", "comment": "40px" },
+        "6xl": { "value": "{size.spacing.12}", "type": "dimension", "comment": "48px" },
+        "7xl": { "value": "{size.spacing.16}", "type": "dimension", "comment": "64px" },
+        "8xl": { "value": "{size.spacing.20}", "type": "dimension", "comment": "80px" },
+        "9xl": { "value": "{size.spacing.24}", "type": "dimension", "comment": "96px" },
+        "10xl": { "value": "{size.spacing.32}", "type": "dimension", "comment": "128px" },
+        "11xl": { "value": "{size.spacing.40}", "type": "dimension", "comment": "160px" }
    } 
 }

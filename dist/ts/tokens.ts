@@ -46,6 +46,20 @@ export const colorBgSuccessSolid = "#15803d"; // Default solid (dark) success st
 export const spacingNone = "0rem"; // 0px
 export const spacingXxs = "0.125rem"; // 2px
 export const spacingXs = "0.25rem"; // 4px
+export const spacingSm = "0.375rem"; // 6px
+export const spacingMd = "0.5rem"; // 8px
+export const spacingLg = "0.75rem"; // 12px
+export const spacingXl = "1rem"; // 16px
+export const spacing2xl = "1.25rem"; // 20px
+export const spacing3xl = "1.5rem"; // 24px
+export const spacing4xl = "2rem"; // 32px
+export const spacing5xl = "2.5rem"; // 40px
+export const spacing6xl = "3rem"; // 48px
+export const spacing7xl = "4rem"; // 64px
+export const spacing8xl = "5rem"; // 80px
+export const spacing9xl = "6rem"; // 96px
+export const spacing10xl = "8rem"; // 128px
+export const spacing11xl = "10rem"; // 160px
 export const typographyTextXsRegular = {
   fontFamily: "Inter",
   fontSize: "0.75rem",

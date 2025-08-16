@@ -90,6 +90,34 @@ export const spacingNone: string;
 export const spacingXxs: string;
 /** 4px */
 export const spacingXs: string;
+/** 6px */
+export const spacingSm: string;
+/** 8px */
+export const spacingMd: string;
+/** 12px */
+export const spacingLg: string;
+/** 16px */
+export const spacingXl: string;
+/** 20px */
+export const spacing2xl: string;
+/** 24px */
+export const spacing3xl: string;
+/** 32px */
+export const spacing4xl: string;
+/** 40px */
+export const spacing5xl: string;
+/** 48px */
+export const spacing6xl: string;
+/** 64px */
+export const spacing7xl: string;
+/** 80px */
+export const spacing8xl: string;
+/** 96px */
+export const spacing9xl: string;
+/** 128px */
+export const spacing10xl: string;
+/** 160px */
+export const spacing11xl: string;
 /** 12px / 18px, regular */
 export const typographyTextXsRegular: {
   fontFamily: string;
