@@ -44,6 +44,9 @@
   --color-bg-success-primary: #dcfce7; /** Primary success state background color for components. */
   --color-bg-success-secondary: #bbf7d0; /** Secondary success state background color for components such as featured icons. */
   --color-bg-success-solid: #15803d; /** Default solid (dark) success state background color for components such as featured icons and metric items. */
+  --spacing-none: 0rem; /** 0px */
+  --spacing-xxs: 0.125rem; /** 2px */
+  --spacing-xs: 0.25rem; /** 4px */
   --typography-text-xs-regular: 400 0.75rem/1.125rem Inter; /** 12px / 18px, regular */
   --typography-text-xs-medium: 500 0.75rem/1.125rem Inter; /** 12px / 18px, medium */
   --typography-text-xs-semibold: 600 0.75rem/1.125rem Inter; /** 12px / 18px, semibold */

@@ -1,0 +1,7 @@
+{
+   "spacing": {
+        "none": { "value": "{size.spacing.0}", "type": "dimension", "comment": "0px" },
+        "xxs": { "value": "{size.spacing.0.5}", "type": "dimension", "comment": "2px" },
+        "xs": { "value": "{size.spacing.1}", "type": "dimension", "comment": "4px" }
+   } 
+}

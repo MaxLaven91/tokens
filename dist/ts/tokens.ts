@@ -43,6 +43,9 @@ export const colorBgWarningSolid = "#d97706"; // Default solid (dark) warning st
 export const colorBgSuccessPrimary = "#dcfce7"; // Primary success state background color for components.
 export const colorBgSuccessSecondary = "#bbf7d0"; // Secondary success state background color for components such as featured icons.
 export const colorBgSuccessSolid = "#15803d"; // Default solid (dark) success state background color for components such as featured icons and metric items.
+export const spacingNone = "0rem"; // 0px
+export const spacingXxs = "0.125rem"; // 2px
+export const spacingXs = "0.25rem"; // 4px
 export const typographyTextXsRegular = {
   fontFamily: "Inter",
   fontSize: "0.75rem",
