@@ -1,3 +1,4 @@
+// style-dictionary.config.mjs
 import StyleDictionary from 'style-dictionary';
 
 export default {
@@ -6,8 +7,15 @@ export default {
 
   platforms: {
     css: {
-      // v5 transform names
-      transforms: ['attribute/cti', 'name/kebab', 'color/hex'],
+      // Built-ins only; no custom registration needed.
+      // Importantly, we DO NOT include `size/rem` so radius stays in px.
+      transforms: [
+        'attribute/cti',
+        'name/kebab',
+        'fontFamily/css',
+        'typography/css/shorthand',
+        'color/css'
+      ],
       buildPath: 'dist/css/',
       files: [
         {

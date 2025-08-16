@@ -5,7 +5,7 @@
 :root {
   --color-base-white: #ffffff;
   --color-base-black: #000000;
-  --color-base-transparent: #00000000;
+  --color-base-transparent: rgba(0, 0, 0, 0);
   --color-gray-25: #fcfcfc;
   --color-gray-50: #f9f9f9;
   --color-gray-100: #f0f0f0;
@@ -178,48 +178,48 @@
   --color-bg-success-primary: var(--color-green-50); /** Primary success state background color for components. */
   --color-bg-success-secondary: var(--color-green-100); /** Secondary success state background color for components such as featured icons. */
   --color-bg-success-solid: var(--color-green-600); /** Default solid (dark) success state background color for components such as featured icons and metric items. */
-  --typography-text-xs-regular: [object Object]; /** 12px / 18px, regular */
-  --typography-text-xs-medium: [object Object]; /** 12px / 18px, medium */
-  --typography-text-xs-semibold: [object Object]; /** 12px / 18px, semibold */
-  --typography-text-xs-bold: [object Object]; /** 12px / 18px, bold */
-  --typography-text-sm-regular: [object Object]; /** 14px / 20px, regular */
-  --typography-text-sm-medium: [object Object]; /** 14px / 20px, medium */
-  --typography-text-sm-semibold: [object Object]; /** 14px / 20px, semibold */
-  --typography-text-sm-bold: [object Object]; /** 14px / 20px, bold */
-  --typography-text-md-regular: [object Object]; /** 16px / 24px, regular */
-  --typography-text-md-medium: [object Object]; /** 16px / 24px, medium */
-  --typography-text-md-semibold: [object Object]; /** 16px / 24px, semibold */
-  --typography-text-md-bold: [object Object]; /** 16px / 24px, bold */
-  --typography-text-lg-regular: [object Object]; /** 18px / 28px, regular */
-  --typography-text-lg-medium: [object Object]; /** 18px / 28px, medium */
-  --typography-text-lg-semibold: [object Object]; /** 18px / 28px, semibold */
-  --typography-text-lg-bold: [object Object]; /** 18px / 28px, bold */
-  --typography-text-xl-regular: [object Object]; /** 20px / 30px, regular */
-  --typography-text-xl-medium: [object Object]; /** 20px / 30px, medium */
-  --typography-text-xl-semibold: [object Object]; /** 20px / 30px, semibold */
-  --typography-text-xl-bold: [object Object]; /** 20px / 30px, bold */
-  --typography-display-xs-regular: [object Object]; /** 24px / 32px, regular */
-  --typography-display-xs-medium: [object Object]; /** 24px / 32px, medium */
-  --typography-display-xs-semibold: [object Object]; /** 24px / 32px, semibold */
-  --typography-display-xs-bold: [object Object]; /** 24px / 32px, bold */
-  --typography-display-sm-regular: [object Object]; /** 30px / 38px, regular */
-  --typography-display-sm-medium: [object Object]; /** 30px / 38px, medium */
-  --typography-display-sm-semibold: [object Object]; /** 30px / 38px, semibold */
-  --typography-display-sm-bold: [object Object]; /** 30px / 38px, bold */
-  --typography-display-md-regular: [object Object]; /** 36px / 44px, regular */
-  --typography-display-md-medium: [object Object]; /** 36px / 44px, medium */
-  --typography-display-md-semibold: [object Object]; /** 36px / 44px, semibold */
-  --typography-display-md-bold: [object Object]; /** 36px / 44px, bold */
-  --typography-display-lg-regular: [object Object]; /** 48px / 60px, regular */
-  --typography-display-lg-medium: [object Object]; /** 48px / 60px, medium */
-  --typography-display-lg-semibold: [object Object]; /** 48px / 60px, semibold */
-  --typography-display-lg-bold: [object Object]; /** 48px / 60px, bold */
-  --typography-display-xl-regular: [object Object]; /** 60px / 72px, regular */
-  --typography-display-xl-medium: [object Object]; /** 60px / 72px, medium */
-  --typography-display-xl-semibold: [object Object]; /** 60px / 72px, semibold */
-  --typography-display-xl-bold: [object Object]; /** 60px / 72px, bold */
-  --typography-display-2xl-regular: [object Object]; /** 72px / 90px, regular */
-  --typography-display-2xl-medium: [object Object]; /** 72px / 90px, medium */
-  --typography-display-2xl-semibold: [object Object]; /** 72px / 90px, semibold */
-  --typography-display-2xl-bold: [object Object]; /** 72px / 90px, bold */
+  --typography-text-xs-regular: var(--font-weight-regular) var(--font-size-text-xs)/var(--font-line-height-text-xs) var(--font-family-body); /** 12px / 18px, regular */
+  --typography-text-xs-medium: var(--font-weight-medium) var(--font-size-text-xs)/var(--font-line-height-text-xs) var(--font-family-body); /** 12px / 18px, medium */
+  --typography-text-xs-semibold: var(--font-weight-semibold) var(--font-size-text-xs)/var(--font-line-height-text-xs) var(--font-family-body); /** 12px / 18px, semibold */
+  --typography-text-xs-bold: var(--font-weight-bold) var(--font-size-text-xs)/var(--font-line-height-text-xs) var(--font-family-body); /** 12px / 18px, bold */
+  --typography-text-sm-regular: var(--font-weight-regular) var(--font-size-text-sm)/var(--font-line-height-text-sm) var(--font-family-body); /** 14px / 20px, regular */
+  --typography-text-sm-medium: var(--font-weight-medium) var(--font-size-text-sm)/var(--font-line-height-text-sm) var(--font-family-body); /** 14px / 20px, medium */
+  --typography-text-sm-semibold: var(--font-weight-semibold) var(--font-size-text-sm)/var(--font-line-height-text-sm) var(--font-family-body); /** 14px / 20px, semibold */
+  --typography-text-sm-bold: var(--font-weight-bold) var(--font-size-text-sm)/var(--font-line-height-text-sm) var(--font-family-body); /** 14px / 20px, bold */
+  --typography-text-md-regular: var(--font-weight-regular) var(--font-size-text-md)/var(--font-line-height-text-md) var(--font-family-body); /** 16px / 24px, regular */
+  --typography-text-md-medium: var(--font-weight-medium) var(--font-size-text-md)/var(--font-line-height-text-md) var(--font-family-body); /** 16px / 24px, medium */
+  --typography-text-md-semibold: var(--font-weight-semibold) var(--font-size-text-md)/var(--font-line-height-text-md) var(--font-family-body); /** 16px / 24px, semibold */
+  --typography-text-md-bold: var(--font-weight-bold) var(--font-size-text-md)/var(--font-line-height-text-md) var(--font-family-body); /** 16px / 24px, bold */
+  --typography-text-lg-regular: var(--font-weight-regular) var(--font-size-text-lg)/var(--font-line-height-text-lg) var(--font-family-body); /** 18px / 28px, regular */
+  --typography-text-lg-medium: var(--font-weight-medium) var(--font-size-text-lg)/var(--font-line-height-text-lg) var(--font-family-body); /** 18px / 28px, medium */
+  --typography-text-lg-semibold: var(--font-weight-semibold) var(--font-size-text-lg)/var(--font-line-height-text-lg) var(--font-family-body); /** 18px / 28px, semibold */
+  --typography-text-lg-bold: var(--font-weight-bold) var(--font-size-text-lg)/var(--font-line-height-text-lg) var(--font-family-body); /** 18px / 28px, bold */
+  --typography-text-xl-regular: var(--font-weight-regular) var(--font-size-text-xl)/var(--font-line-height-text-xl) var(--font-family-body); /** 20px / 30px, regular */
+  --typography-text-xl-medium: var(--font-weight-medium) var(--font-size-text-xl)/var(--font-line-height-text-xl) var(--font-family-body); /** 20px / 30px, medium */
+  --typography-text-xl-semibold: var(--font-weight-semibold) var(--font-size-text-xl)/var(--font-line-height-text-xl) var(--font-family-body); /** 20px / 30px, semibold */
+  --typography-text-xl-bold: var(--font-weight-bold) var(--font-size-text-xl)/var(--font-line-height-text-xl) var(--font-family-body); /** 20px / 30px, bold */
+  --typography-display-xs-regular: var(--font-weight-regular) var(--font-size-display-xs)/var(--font-line-height-display-xs) var(--font-family-display); /** 24px / 32px, regular */
+  --typography-display-xs-medium: var(--font-weight-medium) var(--font-size-display-xs)/var(--font-line-height-display-xs) var(--font-family-display); /** 24px / 32px, medium */
+  --typography-display-xs-semibold: var(--font-weight-semibold) var(--font-size-display-xs)/var(--font-line-height-display-xs) var(--font-family-display); /** 24px / 32px, semibold */
+  --typography-display-xs-bold: var(--font-weight-bold) var(--font-size-display-xs)/var(--font-line-height-display-xs) var(--font-family-display); /** 24px / 32px, bold */
+  --typography-display-sm-regular: var(--font-weight-regular) var(--font-size-display-sm)/var(--font-line-height-display-sm) var(--font-family-display); /** 30px / 38px, regular */
+  --typography-display-sm-medium: var(--font-weight-medium) var(--font-size-display-sm)/var(--font-line-height-display-sm) var(--font-family-display); /** 30px / 38px, medium */
+  --typography-display-sm-semibold: var(--font-weight-semibold) var(--font-size-display-sm)/var(--font-line-height-display-sm) var(--font-family-display); /** 30px / 38px, semibold */
+  --typography-display-sm-bold: var(--font-weight-bold) var(--font-size-display-sm)/var(--font-line-height-display-sm) var(--font-family-display); /** 30px / 38px, bold */
+  --typography-display-md-regular: var(--font-weight-regular) var(--font-size-display-md)/var(--font-line-height-display-md) var(--font-family-display); /** 36px / 44px, regular */
+  --typography-display-md-medium: var(--font-weight-medium) var(--font-size-display-md)/var(--font-line-height-display-md) var(--font-family-display); /** 36px / 44px, medium */
+  --typography-display-md-semibold: var(--font-weight-semibold) var(--font-size-display-md)/var(--font-line-height-display-md) var(--font-family-display); /** 36px / 44px, semibold */
+  --typography-display-md-bold: var(--font-weight-bold) var(--font-size-display-md)/var(--font-line-height-display-md) var(--font-family-display); /** 36px / 44px, bold */
+  --typography-display-lg-regular: var(--font-weight-regular) var(--font-size-display-lg)/var(--font-line-height-display-lg) var(--font-family-display); /** 48px / 60px, regular */
+  --typography-display-lg-medium: var(--font-weight-medium) var(--font-size-display-lg)/var(--font-line-height-display-lg) var(--font-family-display); /** 48px / 60px, medium */
+  --typography-display-lg-semibold: var(--font-weight-semibold) var(--font-size-display-lg)/var(--font-line-height-display-lg) var(--font-family-display); /** 48px / 60px, semibold */
+  --typography-display-lg-bold: var(--font-weight-bold) var(--font-size-display-lg)/var(--font-line-height-display-lg) var(--font-family-display); /** 48px / 60px, bold */
+  --typography-display-xl-regular: var(--font-weight-regular) var(--font-size-display-xl)/var(--font-line-height-display-xl) var(--font-family-display); /** 60px / 72px, regular */
+  --typography-display-xl-medium: var(--font-weight-medium) var(--font-size-display-xl)/var(--font-line-height-display-xl) var(--font-family-display); /** 60px / 72px, medium */
+  --typography-display-xl-semibold: var(--font-weight-semibold) var(--font-size-display-xl)/var(--font-line-height-display-xl) var(--font-family-display); /** 60px / 72px, semibold */
+  --typography-display-xl-bold: var(--font-weight-bold) var(--font-size-display-xl)/var(--font-line-height-display-xl) var(--font-family-display); /** 60px / 72px, bold */
+  --typography-display-2xl-regular: var(--font-weight-regular) var(--font-size-display-2xl)/var(--font-line-height-display-2xl) var(--font-family-display); /** 72px / 90px, regular */
+  --typography-display-2xl-medium: var(--font-weight-medium) var(--font-size-display-2xl)/var(--font-line-height-display-2xl) var(--font-family-display); /** 72px / 90px, medium */
+  --typography-display-2xl-semibold: var(--font-weight-semibold) var(--font-size-display-2xl)/var(--font-line-height-display-2xl) var(--font-family-display); /** 72px / 90px, semibold */
+  --typography-display-2xl-bold: var(--font-weight-bold) var(--font-size-display-2xl)/var(--font-line-height-display-2xl) var(--font-family-display); /** 72px / 90px, bold */
 }
