@@ -1,0 +1,15 @@
+{
+  "color": {
+    "text": {
+      "primary": { "value": "{color.gray.900}",  "type": "color" },
+      "secondary": { "value": "{color.gray.700}",  "type": "color" },
+      "tertiary": { "value": "{color.gray.600}",  "type": "color" },
+      "white": { "value": "{color.base.white}",  "type": "color" },
+      "disabled": { "value": "{color.gray.500}",  "type": "color" },
+      "placeholder": { "value": "{color.gray.500}",  "type": "color" },
+      "error": { "value": "{color.red.600}",  "type": "color" },
+      "warning": { "value": "{color.yellow.600}",  "type": "color" },
+      "success": { "value": "{color.green.600}",  "type": "color" }
+      }
+    }
+  }
