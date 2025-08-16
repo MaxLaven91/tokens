@@ -1,7 +1,6 @@
 {
     "color": {
         "text": {
-            "comment": "Semantic text colours for UI copy. Use these in components; avoid referencing primitives directly.",
             "primary": {
                 "value": "{color.gray.900}",
                 "type": "color",
@@ -52,6 +51,60 @@
                 "type": "color",
                 "comment": "Default success state semantic text color."
             }
-        }
+        },
+        "border": {
+            "primary": {
+                "value": "{color.gray.300}",
+                "type": "color",
+                "comment": "High contrast borders. These are used for components such as input fields, button groups, and checkboxes."
+            },
+             "secondary": {
+                "value": "{color.gray.200}",
+                "type": "color",
+                "comment": "Medium contrast borders. This is the most commonly used border color and is the default for most components (such as file uploaders), cards (such as tables), and content dividers."
+            },
+            "tertiary": {
+                "value": "{color.gray.100}",
+                "type": "color",
+                "comment": "Low contrast borders useful for very subtle dividers and borders such as line and bar chart axis dividers."
+            },
+            "disabled": {
+                "value": "{color.gray.100}",
+                "type": "color",
+                "comment": "Default disabled border color for disabled states in components such as input fields and checkboxes."
+            },
+            "error": {
+                "value": "{color.red.500}",
+                "type": "color",
+                "comment": "Default error state semantic border color. Useful for error states in components such as input fields and file uploaders."
+            }
+        },
+        "fg": {
+            "primary": {
+                "value": "{color.gray.900}",
+                "type": "color",
+                "comment": "Highest contrast non-text foreground elements such as icons."
+            },
+             "secondary": {
+                "value": "{color.gray.700}",
+                "type": "color",
+                "comment": "High contrast non-text foreground elements such as icons."
+            },
+            "tertiary": {
+                "value": "{color.gray.600}",
+                "type": "color",
+                "comment": "Medium contrast non-text foreground elements such as icons."
+            },
+            "disabled": {
+                "value": "{color.gray.100}",
+                "type": "color",
+                "comment": "Default disabled border color for disabled states in components such as input fields and checkboxes."
+            },
+            "error": {
+                "value": "{color.red.500}",
+                "type": "color",
+                "comment": "Default error state semantic border color. Useful for error states in components such as input fields and file uploaders."
+            }
+        }        
     }
 }
