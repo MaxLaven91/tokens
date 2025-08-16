@@ -135,6 +135,83 @@
                 "type": "color",
                 "comment": "Default color for disabled non-text foreground elements such as icons in disabled button group buttons and input dropdown menu items."
             }
-        }        
+        },
+        "bg": {
+            "primary": {
+                "value": "{color.base.white}",
+                "type": "color",
+                "comment": "The primary background color (white) used across all layouts and components."
+            },
+             "secondary": {
+                "value": "{color.gray.50}",
+                "type": "color",
+                "comment": "The secondary background color used to create contrast against white backgrounds, such as website section backgrounds."
+            },
+            "tertiary": {
+                "value": "{color.gray.100}",
+                "type": "color",
+                "comment": "The tertiary background color used to create contrast against light backgrounds such as toggles."
+            },
+            "quaternary": {
+                "value": "{color.gray.200}",
+                "type": "color",
+                "comment": "The quaternary background color used to create contrast against light backgrounds, such as sliders and progress bars."
+            },
+            "disabled": {
+                "value": "{color.gray.100}",
+                "type": "color",
+                "comment": "Default disabled background color for components such as disabled primary buttons and toggles."
+            },
+            "overlay": {
+                "value": "{color.gray.950}",
+                "type": "color",
+                "comment": "Default background color for background overlays. These are useful for overlay components such as modals. "
+            },
+            "error-primary": {
+                "value": "{color.red.50}",
+                "type": "color",
+                "comment": "Primary error state background color for components."
+            },
+            "error-secondary": {
+                "value": "{color.red.100}",
+                "type": "color",
+                "comment": "Secondary error state background color for components such as featured icons."
+            },
+            "error-solid": {
+                "value": "{color.red.600}",
+                "type": "color",
+                "comment": "Default solid (dark) error state background color for components such as featured icons and metric items."
+            },
+            "warning-primary": {
+                "value": "{color.yellow.50}",
+                "type": "color",
+                "comment": "Primary warning state background color for components."
+            },
+            "warning-secondary": {
+                "value": "{color.yellow.100}",
+                "type": "color",
+                "comment": "Secondary warning state background color for components such as featured icons."
+            },
+            "warning-solid": {
+                "value": "{color.yellow.600}",
+                "type": "color",
+                "comment": "Default solid (dark) warning state background color for components such as featured icons."
+            },
+            "success-primary": {
+                "value": "{color.green.50}",
+                "type": "color",
+                "comment": "Primary success state background color for components."
+            },
+            "success-secondary": {
+                "value": "{color.green.100}",
+                "type": "color",
+                "comment": "Secondary success state background color for components such as featured icons."
+            },
+            "success-solid": {
+                "value": "{color.green.600}",
+                "type": "color",
+                "comment": "Default solid (dark) success state background color for components such as featured icons and metric items."
+            }
+        }                
     }
 }
