@@ -58,7 +58,7 @@
                 "type": "color",
                 "comment": "High contrast borders. These are used for components such as input fields, button groups, and checkboxes."
             },
-             "secondary": {
+            "secondary": {
                 "value": "{color.gray.200}",
                 "type": "color",
                 "comment": "Medium contrast borders. This is the most commonly used border color and is the default for most components (such as file uploaders), cards (such as tables), and content dividers."
@@ -85,7 +85,7 @@
                 "type": "color",
                 "comment": "Highest contrast non-text foreground elements such as icons."
             },
-             "secondary": {
+            "secondary": {
                 "value": "{color.gray.700}",
                 "type": "color",
                 "comment": "High contrast non-text foreground elements such as icons."
@@ -142,7 +142,7 @@
                 "type": "color",
                 "comment": "The primary background color (white) used across all layouts and components."
             },
-             "secondary": {
+            "secondary": {
                 "value": "{color.gray.50}",
                 "type": "color",
                 "comment": "The secondary background color used to create contrast against white backgrounds, such as website section backgrounds."
@@ -212,6 +212,6 @@
                 "type": "color",
                 "comment": "Default solid (dark) success state background color for components such as featured icons and metric items."
             }
-        }                
+        }
     }
 }
