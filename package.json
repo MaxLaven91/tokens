@@ -1,0 +1,29 @@
+{
+  "name": "@playfului/tokens",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaxLaven91/design-tokens.git"
+  },
+  "files": "[\"dist\"]",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.6",
+    "rimraf": "^6.0.1",
+    "style-dictionary": "^5.0.1"
+  }
+}
