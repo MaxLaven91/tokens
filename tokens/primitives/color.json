@@ -1,9 +1,18 @@
 {
     "color": {
         "base": {
-            "white": "#FFFFFF",
-            "black": "#000000",
-            "transparent": "transparent"
+            "white": {
+                "value": "#FFFFFF",
+                "type": "color"
+            },
+            "black": {
+                "value": "#000000",
+                "type": "color"
+            },
+            "transparent": {
+                "value": "transparent",
+                "type": "color"
+            }
         },
         "gray": {
             "25": {

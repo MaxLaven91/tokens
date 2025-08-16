@@ -1,0 +1,225 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-base-white: #ffffff;
+  --color-base-black: #000000;
+  --color-base-transparent: #00000000;
+  --color-gray-25: #fcfcfc;
+  --color-gray-50: #f9f9f9;
+  --color-gray-100: #f0f0f0;
+  --color-gray-200: #e4e4e4;
+  --color-gray-300: #d1d1d1;
+  --color-gray-400: #a3a3a3;
+  --color-gray-500: #737373;
+  --color-gray-600: #525252;
+  --color-gray-700: #404040;
+  --color-gray-800: #262626;
+  --color-gray-900: #171717;
+  --color-gray-950: #0a0a0a;
+  --color-red-25: #fefcfc;
+  --color-red-50: #fef2f2;
+  --color-red-100: #fee2e2;
+  --color-red-200: #fecaca;
+  --color-red-300: #fca5a5;
+  --color-red-400: #f87171;
+  --color-red-500: #ef4444;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+  --color-red-800: #991b1b;
+  --color-red-900: #7f1d1d;
+  --color-red-950: #450a0a;
+  --color-yellow-25: #fefdf8;
+  --color-yellow-50: #fefce8;
+  --color-yellow-100: #fef3c7;
+  --color-yellow-200: #fde68a;
+  --color-yellow-300: #fcd34d;
+  --color-yellow-400: #fbbf24;
+  --color-yellow-500: #f59e0b;
+  --color-yellow-600: #d97706;
+  --color-yellow-700: #b45309;
+  --color-yellow-800: #92400e;
+  --color-yellow-900: #78350f;
+  --color-yellow-950: #451a03;
+  --color-green-25: #fcfcfc;
+  --color-green-50: #dcfce7;
+  --color-green-100: #bbf7d0;
+  --color-green-200: #86efac;
+  --color-green-300: #4ade80;
+  --color-green-400: #22c55e;
+  --color-green-500: #16a34a;
+  --color-green-600: #15803d;
+  --color-green-700: #166534;
+  --color-green-800: #14532d;
+  --color-green-900: #052e16;
+  --color-green-950: #021c0c;
+  --color-blue-25: #f0f9ff;
+  --color-blue-50: #e0f2fe;
+  --color-blue-100: #bae6fd;
+  --color-blue-200: #7dd3fc;
+  --color-blue-300: #38bdf8;
+  --color-blue-400: #0ea5e9;
+  --color-blue-500: #0284c7;
+  --color-blue-600: #0369a1;
+  --color-blue-700: #075985;
+  --color-blue-800: #0c4a6e;
+  --color-blue-900: #0f172a;
+  --color-blue-950: #020617;
+  --font-family-display: Inter;
+  --font-family-body: Inter;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-size-text-xs: 0.75rem; /** 12px */
+  --font-size-text-sm: 0.875rem; /** 14px */
+  --font-size-text-md: 1rem; /** 16px */
+  --font-size-text-lg: 1.125rem; /** 18px */
+  --font-size-text-xl: 1.25rem; /** 20px */
+  --font-size-display-xs: 1.5rem; /** 24px */
+  --font-size-display-sm: 1.875rem; /** 30px */
+  --font-size-display-md: 2.25rem; /** 36px */
+  --font-size-display-lg: 3rem; /** 48px */
+  --font-size-display-xl: 3.75rem; /** 60px */
+  --font-size-display-2xl: 4.5rem; /** 72px */
+  --font-line-height-text-xs: 1.125rem; /** 18px */
+  --font-line-height-text-sm: 1.25rem; /** 20px */
+  --font-line-height-text-md: 1.5rem; /** 24px */
+  --font-line-height-text-lg: 1.75rem; /** 28px */
+  --font-line-height-text-xl: 1.875rem; /** 30px */
+  --font-line-height-display-xs: 2rem; /** 32px */
+  --font-line-height-display-sm: 2.375rem; /** 38px */
+  --font-line-height-display-md: 2.75rem; /** 44px */
+  --font-line-height-display-lg: 3.75rem; /** 60px */
+  --font-line-height-display-xl: 4.5rem; /** 72px */
+  --font-line-height-display-2xl: 5.625rem; /** 90px */
+  --radius-none: 0;
+  --radius-xxs: 2px;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-3xl: 20px;
+  --radius-4xl: 24px;
+  --radius-full: 9999px;
+  --size-spacing-0: 0rem; /** 0px */
+  --size-spacing-1: 0.25rem; /** 4px */
+  --size-spacing-2: 0.5rem; /** 8px */
+  --size-spacing-3: 0.75rem; /** 12px */
+  --size-spacing-4: 1rem; /** 16px */
+  --size-spacing-5: 1.25rem; /** 20px */
+  --size-spacing-6: 1.5rem; /** 24px */
+  --size-spacing-8: 2rem; /** 32px */
+  --size-spacing-10: 2.5rem; /** 40px */
+  --size-spacing-12: 3rem; /** 48px */
+  --size-spacing-16: 4rem; /** 64px */
+  --size-spacing-20: 5rem; /** 80px */
+  --size-spacing-24: 6rem; /** 96px */
+  --size-spacing-32: 8rem; /** 128px */
+  --size-spacing-40: 10rem; /** 160px */
+  --size-spacing-48: 12rem; /** 192px */
+  --size-spacing-56: 14rem; /** 224px */
+  --size-spacing-64: 16rem; /** 256px */
+  --size-spacing-80: 20rem; /** 320px */
+  --size-spacing-96: 24rem; /** 384px */
+  --size-spacing-120: 30rem; /** 480px */
+  --size-spacing-140: 35rem; /** 560px */
+  --size-spacing-160: 40rem; /** 640px */
+  --size-spacing-180: 45rem; /** 720px */
+  --size-spacing-192: 48rem; /** 768px */
+  --size-spacing-256: 64rem; /** 1024px */
+  --size-spacing-320: 80rem; /** 1280px */
+  --size-spacing-360: 90rem; /** 1440px */
+  --size-spacing-400: 100rem; /** 1600px */
+  --size-spacing-480: 120rem; /** 1920px */
+  --size-spacing-0-5: 0.125rem; /** 2px */
+  --size-spacing-1-5: 0.375rem; /** 6px */
+  --color-text-primary: var(--color-gray-900); /** Primary text such as page headings. */
+  --color-text-secondary: var(--color-gray-700); /** Secondary text such as labels and section headings. */
+  --color-text-tertiary: var(--color-gray-600); /** Tertiary text such as supporting text and paragraph text. */
+  --color-text-quaternary: var(--color-gray-400); /** Quaternary text for more subtle and lower-contrast text, such as footer column headings. */
+  --color-text-white: var(--color-base-white); /** Text that is always white, regardless of the mode. */
+  --color-text-disabled: var(--color-gray-500); /** Default color for disabled text such as disabled input fields or buttons. This can be changed to gray-400, but gray-500 is higher contrast and more accessible. */
+  --color-text-placeholder: var(--color-gray-500); /** Default color for placeholder text such as input field placeholders. This can be changed to gray-400, but gray-500 is more accessible because it is higher contrast. */
+  --color-text-error: var(--color-red-600); /** Default error state semantic text color (e.g. input field error states. */
+  --color-text-warning: var(--color-yellow-600); /** Default warning state semantic text color. */
+  --color-text-success: var(--color-green-600); /** Default success state semantic text color. */
+  --color-border-primary: var(--color-gray-300); /** High contrast borders. These are used for components such as input fields, button groups, and checkboxes. */
+  --color-border-secondary: var(--color-gray-200); /** Medium contrast borders. This is the most commonly used border color and is the default for most components (such as file uploaders), cards (such as tables), and content dividers. */
+  --color-border-tertiary: var(--color-gray-100); /** Low contrast borders useful for very subtle dividers and borders such as line and bar chart axis dividers. */
+  --color-border-disabled: var(--color-gray-100); /** Default disabled border color for disabled states in components such as input fields and checkboxes. */
+  --color-border-error: var(--color-red-500); /** Default error state semantic border color. Useful for error states in components such as input fields and file uploaders. */
+  --color-fg-primary: var(--color-gray-900); /** Highest contrast non-text foreground elements such as icons. */
+  --color-fg-secondary: var(--color-gray-700); /** High contrast non-text foreground elements such as icons. */
+  --color-fg-tertiary: var(--color-gray-600); /** Medium contrast non-text foreground elements such as icons. */
+  --color-fg-quaternary: var(--color-gray-500); /** Medium-low contrast non-text foreground elements such as icons. */
+  --color-fg-quinary: var(--color-gray-400); /** Low contrast non-text foreground elements such as help icons. */
+  --color-fg-senary: var(--color-gray-300); /** Lowest contrast non-text foreground elements such as breadcrumb divider icons and vector map. Used very sparingly. */
+  --color-fg-white: var(--color-base-white); /** Foreground elements that are always white, regardless of the mode. */
+  --color-fg-disabled: var(--color-gray-400); /** Default color for disabled non-text foreground elements such as icons in disabled button group buttons and input dropdown menu items. */
+  --color-fg-error: var(--color-red-600); /** Default color for disabled non-text foreground elements such as icons in disabled button group buttons and input dropdown menu items. */
+  --color-fg-warning: var(--color-yellow-600); /** Default color for disabled non-text foreground elements such as icons in disabled button group buttons and input dropdown menu items. */
+  --color-fg-success: var(--color-green-600); /** Default color for disabled non-text foreground elements such as icons in disabled button group buttons and input dropdown menu items. */
+  --color-bg-primary: var(--color-base-white); /** The primary background color (white) used across all layouts and components. */
+  --color-bg-secondary: var(--color-gray-50); /** The secondary background color used to create contrast against white backgrounds, such as website section backgrounds. */
+  --color-bg-tertiary: var(--color-gray-100); /** The tertiary background color used to create contrast against light backgrounds such as toggles. */
+  --color-bg-quaternary: var(--color-gray-200); /** The quaternary background color used to create contrast against light backgrounds, such as sliders and progress bars. */
+  --color-bg-disabled: var(--color-gray-100); /** Default disabled background color for components such as disabled primary buttons and toggles. */
+  --color-bg-overlay: var(--color-gray-950); /** Default background color for background overlays. These are useful for overlay components such as modals.  */
+  --color-bg-error-primary: var(--color-red-50); /** Primary error state background color for components. */
+  --color-bg-error-secondary: var(--color-red-100); /** Secondary error state background color for components such as featured icons. */
+  --color-bg-error-solid: var(--color-red-600); /** Default solid (dark) error state background color for components such as featured icons and metric items. */
+  --color-bg-warning-primary: var(--color-yellow-50); /** Primary warning state background color for components. */
+  --color-bg-warning-secondary: var(--color-yellow-100); /** Secondary warning state background color for components such as featured icons. */
+  --color-bg-warning-solid: var(--color-yellow-600); /** Default solid (dark) warning state background color for components such as featured icons. */
+  --color-bg-success-primary: var(--color-green-50); /** Primary success state background color for components. */
+  --color-bg-success-secondary: var(--color-green-100); /** Secondary success state background color for components such as featured icons. */
+  --color-bg-success-solid: var(--color-green-600); /** Default solid (dark) success state background color for components such as featured icons and metric items. */
+  --typography-text-xs-regular: [object Object]; /** 12px / 18px, regular */
+  --typography-text-xs-medium: [object Object]; /** 12px / 18px, medium */
+  --typography-text-xs-semibold: [object Object]; /** 12px / 18px, semibold */
+  --typography-text-xs-bold: [object Object]; /** 12px / 18px, bold */
+  --typography-text-sm-regular: [object Object]; /** 14px / 20px, regular */
+  --typography-text-sm-medium: [object Object]; /** 14px / 20px, medium */
+  --typography-text-sm-semibold: [object Object]; /** 14px / 20px, semibold */
+  --typography-text-sm-bold: [object Object]; /** 14px / 20px, bold */
+  --typography-text-md-regular: [object Object]; /** 16px / 24px, regular */
+  --typography-text-md-medium: [object Object]; /** 16px / 24px, medium */
+  --typography-text-md-semibold: [object Object]; /** 16px / 24px, semibold */
+  --typography-text-md-bold: [object Object]; /** 16px / 24px, bold */
+  --typography-text-lg-regular: [object Object]; /** 18px / 28px, regular */
+  --typography-text-lg-medium: [object Object]; /** 18px / 28px, medium */
+  --typography-text-lg-semibold: [object Object]; /** 18px / 28px, semibold */
+  --typography-text-lg-bold: [object Object]; /** 18px / 28px, bold */
+  --typography-text-xl-regular: [object Object]; /** 20px / 30px, regular */
+  --typography-text-xl-medium: [object Object]; /** 20px / 30px, medium */
+  --typography-text-xl-semibold: [object Object]; /** 20px / 30px, semibold */
+  --typography-text-xl-bold: [object Object]; /** 20px / 30px, bold */
+  --typography-display-xs-regular: [object Object]; /** 24px / 32px, regular */
+  --typography-display-xs-medium: [object Object]; /** 24px / 32px, medium */
+  --typography-display-xs-semibold: [object Object]; /** 24px / 32px, semibold */
+  --typography-display-xs-bold: [object Object]; /** 24px / 32px, bold */
+  --typography-display-sm-regular: [object Object]; /** 30px / 38px, regular */
+  --typography-display-sm-medium: [object Object]; /** 30px / 38px, medium */
+  --typography-display-sm-semibold: [object Object]; /** 30px / 38px, semibold */
+  --typography-display-sm-bold: [object Object]; /** 30px / 38px, bold */
+  --typography-display-md-regular: [object Object]; /** 36px / 44px, regular */
+  --typography-display-md-medium: [object Object]; /** 36px / 44px, medium */
+  --typography-display-md-semibold: [object Object]; /** 36px / 44px, semibold */
+  --typography-display-md-bold: [object Object]; /** 36px / 44px, bold */
+  --typography-display-lg-regular: [object Object]; /** 48px / 60px, regular */
+  --typography-display-lg-medium: [object Object]; /** 48px / 60px, medium */
+  --typography-display-lg-semibold: [object Object]; /** 48px / 60px, semibold */
+  --typography-display-lg-bold: [object Object]; /** 48px / 60px, bold */
+  --typography-display-xl-regular: [object Object]; /** 60px / 72px, regular */
+  --typography-display-xl-medium: [object Object]; /** 60px / 72px, medium */
+  --typography-display-xl-semibold: [object Object]; /** 60px / 72px, semibold */
+  --typography-display-xl-bold: [object Object]; /** 60px / 72px, bold */
+  --typography-display-2xl-regular: [object Object]; /** 72px / 90px, regular */
+  --typography-display-2xl-medium: [object Object]; /** 72px / 90px, medium */
+  --typography-display-2xl-semibold: [object Object]; /** 72px / 90px, semibold */
+  --typography-display-2xl-bold: [object Object]; /** 72px / 90px, bold */
+}

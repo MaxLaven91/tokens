@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist",
+    "build": "style-dictionary build --config style-dictionary.config.mjs",
+    "rebuild": "npm run clean && npm run build",
+    "prepublishOnly": "npm run rebuild"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +15,11 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MaxLaven91/design-tokens.git"
+    "url": "https://github.com/MaxLaven91/tokens.git"
   },
-  "files": "[\"dist\"]",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
