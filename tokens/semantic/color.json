@@ -1,15 +1,57 @@
 {
-  "color": {
-    "text": {
-      "primary": { "value": "{color.gray.900}",  "type": "color" },
-      "secondary": { "value": "{color.gray.700}",  "type": "color" },
-      "tertiary": { "value": "{color.gray.600}",  "type": "color" },
-      "white": { "value": "{color.base.white}",  "type": "color" },
-      "disabled": { "value": "{color.gray.500}",  "type": "color" },
-      "placeholder": { "value": "{color.gray.500}",  "type": "color" },
-      "error": { "value": "{color.red.600}",  "type": "color" },
-      "warning": { "value": "{color.yellow.600}",  "type": "color" },
-      "success": { "value": "{color.green.600}",  "type": "color" }
-      }
+    "color": {
+        "text": {
+            "comment": "Semantic text colours for UI copy. Use these in components; avoid referencing primitives directly.",
+            "primary": {
+                "value": "{color.gray.900}",
+                "type": "color",
+                "comment": "Primary text such as page headings."
+            },
+            "secondary": {
+                "value": "{color.gray.700}",
+                "type": "color",
+                "comment": "Secondary text such as labels and section headings."
+            },
+            "tertiary": {
+                "value": "{color.gray.600}",
+                "type": "color",
+                "comment": "Tertiary text such as supporting text and paragraph text."
+            },
+            "quaternary": {
+                "value": "{color.gray.400}",
+                "type": "color",
+                "comment": "Quaternary text for more subtle and lower-contrast text, such as footer column headings."
+            },
+            "white": {
+                "value": "{color.base.white}",
+                "type": "color",
+                "comment": "Text that is always white, regardless of the mode."
+            },
+            "disabled": {
+                "value": "{color.gray.500}",
+                "type": "color",
+                "comment": "Default color for disabled text such as disabled input fields or buttons. This can be changed to gray-400, but gray-500 is higher contrast and more accessible."
+            },
+            "placeholder": {
+                "value": "{color.gray.500}",
+                "type": "color",
+                "comment": "Default color for placeholder text such as input field placeholders. This can be changed to gray-400, but gray-500 is more accessible because it is higher contrast."
+            },
+            "error": {
+                "value": "{color.red.600}",
+                "type": "color",
+                "comment": "Default error state semantic text color (e.g. input field error states."
+            },
+            "warning": {
+                "value": "{color.yellow.600}",
+                "type": "color",
+                "comment": "Default warning state semantic text color."
+            },
+            "success": {
+                "value": "{color.green.600}",
+                "type": "color",
+                "comment": "Default success state semantic text color."
+            }
+        }
     }
-  }
+}
