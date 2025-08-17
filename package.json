@@ -1,6 +1,6 @@
 {
   "name": "@playfului/tokens",
-  "version": "0.1.0",
+  "version": "1.0.0-beta.1",
   "description": "",
   "scripts": {
     "clean": "rimraf dist",
@@ -17,8 +17,12 @@
     "type": "git",
     "url": "https://github.com/MaxLaven91/tokens.git"
   },
-  "files": ["dist"],
-  "sideEffects": ["dist/css/*"],
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "dist/css/*"
+  ],
   "publishConfig": {
     "access": "public"
   },
