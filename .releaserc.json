@@ -1,0 +1,16 @@
+{
+  "branches": [
+    "main",
+    { "name": "beta",  "prerelease": "beta" },
+    { "name": "alpha", "prerelease": "alpha" }
+  ],
+  "tagFormat": "v${version}",
+  "plugins": [
+    ["@semantic-release/commit-analyzer", { "preset": "conventionalcommits" }],
+    ["@semantic-release/release-notes-generator", { "preset": "conventionalcommits" }],
+    "@semantic-release/changelog",
+    ["@semantic-release/npm", { "npmPublish": true }],
+    "@semantic-release/github",
+    ["@semantic-release/git", { "assets": ["CHANGELOG.md", "package.json"] }]
+  ]
+}
