@@ -1,3 +1,9 @@
+## [1.0.0-beta.4](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2025-08-17)
+
+### Bug Fixes
+
+* trigger beta publish ([4c7f493](https://github.com/MaxLaven91/tokens/commit/4c7f493ddb8e797886c11ff7e7dd341c21b10643))
+
 ## [1.0.0-beta.3](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2025-08-17)
 
 ### Bug Fixes
