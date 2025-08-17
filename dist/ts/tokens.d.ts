@@ -429,3 +429,27 @@ export const typographyDisplay2xlBold: {
   lineHeight: string;
   fontWeight: string;
 };
+/** 320px */
+export const widthsXxs: string;
+/** 384px */
+export const widthsXs: string;
+/** 480px */
+export const widthsSm: string;
+/** 560px */
+export const widthsMd: string;
+/** 640px */
+export const widthsLg: string;
+/** 768px */
+export const widthsXl: string;
+/** 1024px */
+export const widths2xl: string;
+/** 1280px */
+export const widths3xl: string;
+/** 1440px */
+export const widths4xl: string;
+/** 1600px */
+export const widths5xl: string;
+/** 1920px */
+export const widths6xl: string;
+/** 720px */
+export const widthsParagraphMaxWidth: string;

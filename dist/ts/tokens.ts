@@ -327,3 +327,15 @@ export const typographyDisplay2xlBold = {
   lineHeight: "5.625rem",
   fontWeight: "700",
 }; // 72px / 90px, bold
+export const widthsXxs = "20rem"; // 320px
+export const widthsXs = "24rem"; // 384px
+export const widthsSm = "30rem"; // 480px
+export const widthsMd = "35rem"; // 560px
+export const widthsLg = "40rem"; // 640px
+export const widthsXl = "48rem"; // 768px
+export const widths2xl = "64rem"; // 1024px
+export const widths3xl = "80rem"; // 1280px
+export const widths4xl = "90rem"; // 1440px
+export const widths5xl = "100rem"; // 1600px
+export const widths6xl = "120rem"; // 1920px
+export const widthsParagraphMaxWidth = "45rem"; // 720px

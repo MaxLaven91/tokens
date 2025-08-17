@@ -1,0 +1,64 @@
+{
+    "widths": {
+        "xxs": {
+            "value": "{size.spacing.80}",
+            "type": "dimension",
+            "comment": "320px"
+        },
+        "xs": {
+            "value": "{size.spacing.96}",
+            "type": "dimension",
+            "comment": "384px"
+        },
+        "sm": {
+            "value": "{size.spacing.120}",
+            "type": "dimension",
+            "comment": "480px"
+        },
+        "md": {
+            "value": "{size.spacing.140}",
+            "type": "dimension",
+            "comment": "560px"
+        },
+        "lg": {
+            "value": "{size.spacing.160}",
+            "type": "dimension",
+            "comment": "640px"
+        },
+        "xl": {
+            "value": "{size.spacing.192}",
+            "type": "dimension",
+            "comment": "768px"
+        },
+        "2xl": {
+            "value": "{size.spacing.256}",
+            "type": "dimension",
+            "comment": "1024px"
+        },
+        "3xl": {
+            "value": "{size.spacing.320}",
+            "type": "dimension",
+            "comment": "1280px"
+        },
+        "4xl": {
+            "value": "{size.spacing.360}",
+            "type": "dimension",
+            "comment": "1440px"
+        },
+        "5xl": {
+            "value": "{size.spacing.400}",
+            "type": "dimension",
+            "comment": "1600px"
+        },
+        "6xl": {
+            "value": "{size.spacing.480}",
+            "type": "dimension",
+            "comment": "1920px"
+        },
+        "paragraph-max-width": {
+            "value": "{size.spacing.180}",
+            "type": "dimension",
+            "comment": "720px"
+        }
+    }
+}

@@ -108,4 +108,16 @@
   --typography-display-2xl-medium: 500 4.5rem/5.625rem Inter; /** 72px / 90px, medium */
   --typography-display-2xl-semibold: 600 4.5rem/5.625rem Inter; /** 72px / 90px, semibold */
   --typography-display-2xl-bold: 700 4.5rem/5.625rem Inter; /** 72px / 90px, bold */
+  --widths-xxs: 20rem; /** 320px */
+  --widths-xs: 24rem; /** 384px */
+  --widths-sm: 30rem; /** 480px */
+  --widths-md: 35rem; /** 560px */
+  --widths-lg: 40rem; /** 640px */
+  --widths-xl: 48rem; /** 768px */
+  --widths-2xl: 64rem; /** 1024px */
+  --widths-3xl: 80rem; /** 1280px */
+  --widths-4xl: 90rem; /** 1440px */
+  --widths-5xl: 100rem; /** 1600px */
+  --widths-6xl: 120rem; /** 1920px */
+  --widths-paragraph-max-width: 45rem; /** 720px */
 }
