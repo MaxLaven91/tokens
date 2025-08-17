@@ -1,0 +1,19 @@
+{
+    "containers": {
+        "container-padding-mobile": {
+            "value": "{size.spacing.4}",
+            "type": "dimension",
+            "description": "Padding for containers on mobile devices"
+        },
+        "container-padding-desktop": {
+            "value": "{size.spacing.8}",
+            "type": "dimension",
+            "description": "Padding for containers on mobile devices"
+        },
+        "container-max-width-desktop": {
+            "value": "{size.spacing.320}",
+            "type": "dimension",
+            "description": "Padding for containers on mobile devices"
+        }
+    }
+}

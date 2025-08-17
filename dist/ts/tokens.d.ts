@@ -84,6 +84,9 @@ export const colorBgSuccessPrimary: string;
 export const colorBgSuccessSecondary: string;
 /** Default solid (dark) success state background color for components such as featured icons and metric items. */
 export const colorBgSuccessSolid: string;
+export const containersContainerPaddingMobile: string;
+export const containersContainerPaddingDesktop: string;
+export const containersContainerMaxWidthDesktop: string;
 /** 0px */
 export const spacingNone: string;
 /** 2px */
