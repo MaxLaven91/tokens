@@ -1,3 +1,9 @@
+## [1.0.0-beta.5](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2025-08-17)
+
+### Features
+
+* **button:** add component tokens (sizes, variants, focus) ([0b6d941](https://github.com/MaxLaven91/tokens/commit/0b6d9411811c8d4f23291c0b1f498bfd96929360))
+
 ## [1.0.0-beta.4](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2025-08-17)
 
 ### Bug Fixes
