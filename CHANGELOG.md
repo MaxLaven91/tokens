@@ -1,3 +1,9 @@
+## [1.0.0-beta.6](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2025-08-17)
+
+### Features
+
+* **button:** add sm and lg sizes and variants ([1770041](https://github.com/MaxLaven91/tokens/commit/1770041aad7fa585ca88261c59b9e25e0e206071))
+
 ## [1.0.0-beta.5](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2025-08-17)
 
 ### Features
