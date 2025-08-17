@@ -126,43 +126,49 @@
                 "primary": {
                     "bg": {
                         "default": {
-                            "value": "{color.base.black}",
+                            "value": "{color.brand.600}",
                             "type": "color"
                         },
                         "hover": {
-                            "value": "{color.gray.950}",
+                            "value": "{color.brand.700}",
                             "type": "color"
                         },
                         "active": {
-                            "value": "{color.base.black}",
+                            "value": "{color.brand.700}",
                             "type": "color"
                         },
                         "disabled": {
-                            "value": "{color.base.black}",
+                            "value": "{color.bg.disabled}",
                             "type": "color"
                         }
                     },
                     "fg": {
-                        "value": "{color.base.white}",
-                        "type": "color"
+                        "default": {
+                            "value": "{color.base.white}",
+                            "type": "color"
+                        },
+                        "disabled": {
+                            "value": "{color.fg.disabled}",
+                            "type": "color"
+                        }
                     },
                     "border": {
-                        "value": "{color.base.black}",
-                        "type": "color"
-                    }
-                },
-                "hover": {
-                    "bg": {
-                        "value": "{color.base.black}",
-                        "type": "color"
-                    },
-                    "fg": {
-                        "value": "{color.base.white}",
-                        "type": "color"
-                    },
-                    "border": {
-                        "value": "{color.base.black}",
-                        "type": "color"
+                        "default": {
+                            "value": "{color.brand.600}",
+                            "type": "color"
+                        },
+                        "hover": {
+                            "value": "{color.brand.700}",
+                            "type": "color"
+                        },
+                        "active": {
+                            "value": "{color.brand.700}",
+                            "type": "color"
+                        },
+                        "disabled": {
+                            "value": "{color.border.disabled}",
+                            "type": "color"
+                        }
                     }
                 }
             }

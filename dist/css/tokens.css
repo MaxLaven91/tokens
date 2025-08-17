@@ -144,5 +144,14 @@
   --component-button-focus-ring-color: #000000;
   --component-button-focus-ring-width: 2px;
   --component-button-focus-ring-offset: 2px;
-  --component-button-variant-primary: [object Object];
+  --component-button-variant-primary-bg-default: #0f766e;
+  --component-button-variant-primary-bg-hover: #115e59;
+  --component-button-variant-primary-bg-active: #115e59;
+  --component-button-variant-primary-bg-disabled: #f0f0f0;
+  --component-button-variant-primary-fg-default: #ffffff;
+  --component-button-variant-primary-fg-disabled: #a3a3a3;
+  --component-button-variant-primary-border-default: #0f766e;
+  --component-button-variant-primary-border-hover: #115e59;
+  --component-button-variant-primary-border-active: #115e59;
+  --component-button-variant-primary-border-disabled: #f0f0f0;
 }

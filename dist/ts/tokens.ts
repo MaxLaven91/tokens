@@ -378,47 +378,13 @@ export const componentButtonSizeLgTypography = {
 export const componentButtonFocusRingColor = "#000000";
 export const componentButtonFocusRingWidth = "2px";
 export const componentButtonFocusRingOffset = "2px";
-export const componentButtonVariantPrimary = {
-  state: {
-    default: {
-      bg: {
-        value: "#000000",
-        type: "color",
-        filePath: "tokens/components/button.json",
-        isSource: true,
-      },
-      fg: {
-        value: "#ffffff",
-        type: "color",
-        filePath: "tokens/components/button.json",
-        isSource: true,
-      },
-      border: {
-        value: "#000000",
-        type: "color",
-        filePath: "tokens/components/button.json",
-        isSource: true,
-      },
-    },
-    hover: {
-      bg: {
-        value: "#000000",
-        type: "color",
-        filePath: "tokens/components/button.json",
-        isSource: true,
-      },
-      fg: {
-        value: "#ffffff",
-        type: "color",
-        filePath: "tokens/components/button.json",
-        isSource: true,
-      },
-      border: {
-        value: "#000000",
-        type: "color",
-        filePath: "tokens/components/button.json",
-        isSource: true,
-      },
-    },
-  },
-};
+export const componentButtonVariantPrimaryBgDefault = "#0f766e";
+export const componentButtonVariantPrimaryBgHover = "#115e59";
+export const componentButtonVariantPrimaryBgActive = "#115e59";
+export const componentButtonVariantPrimaryBgDisabled = "#f0f0f0";
+export const componentButtonVariantPrimaryFgDefault = "#ffffff";
+export const componentButtonVariantPrimaryFgDisabled = "#a3a3a3";
+export const componentButtonVariantPrimaryBorderDefault = "#0f766e";
+export const componentButtonVariantPrimaryBorderHover = "#115e59";
+export const componentButtonVariantPrimaryBorderActive = "#115e59";
+export const componentButtonVariantPrimaryBorderDisabled = "#f0f0f0";

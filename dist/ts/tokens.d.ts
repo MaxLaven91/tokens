@@ -507,27 +507,13 @@ export const componentButtonSizeLgTypography: {
 export const componentButtonFocusRingColor: string;
 export const componentButtonFocusRingWidth: string;
 export const componentButtonFocusRingOffset: string;
-export const componentButtonVariantPrimary: {
-  state: {
-    default: {
-      bg: { value: string; type: string; filePath: string; isSource: boolean };
-      fg: { value: string; type: string; filePath: string; isSource: boolean };
-      border: {
-        value: string;
-        type: string;
-        filePath: string;
-        isSource: boolean;
-      };
-    };
-    hover: {
-      bg: { value: string; type: string; filePath: string; isSource: boolean };
-      fg: { value: string; type: string; filePath: string; isSource: boolean };
-      border: {
-        value: string;
-        type: string;
-        filePath: string;
-        isSource: boolean;
-      };
-    };
-  };
-};
+export const componentButtonVariantPrimaryBgDefault: string;
+export const componentButtonVariantPrimaryBgHover: string;
+export const componentButtonVariantPrimaryBgActive: string;
+export const componentButtonVariantPrimaryBgDisabled: string;
+export const componentButtonVariantPrimaryFgDefault: string;
+export const componentButtonVariantPrimaryFgDisabled: string;
+export const componentButtonVariantPrimaryBorderDefault: string;
+export const componentButtonVariantPrimaryBorderHover: string;
+export const componentButtonVariantPrimaryBorderActive: string;
+export const componentButtonVariantPrimaryBorderDisabled: string;
