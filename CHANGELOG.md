@@ -1,3 +1,9 @@
+## [1.0.0-beta.7](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2025-08-17)
+
+### Features
+
+* **color:** add brand colors ([cd8c1d6](https://github.com/MaxLaven91/tokens/commit/cd8c1d6f89687036f7300ce3691b8604a23fac6a))
+
 ## [1.0.0-beta.6](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2025-08-17)
 
 ### Features
