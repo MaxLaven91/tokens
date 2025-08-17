@@ -470,3 +470,64 @@ export const componentButtonSizeSmTypography: {
   lineHeight: string;
   fontWeight: string;
 };
+/** 16px / 1rem */
+export const componentButtonSizeMdPaddingX: string;
+/** 10px */
+export const componentButtonSizeMdPaddingY: string;
+/** 6px / 0.375rem */
+export const componentButtonSizeMdGap: string;
+/** 20px */
+export const componentButtonSizeMdIconSize: string;
+export const componentButtonSizeMdBorderWidth: string;
+/** 8px */
+export const componentButtonSizeMdRadius: string;
+export const componentButtonSizeMdTypography: {
+  fontFamily: string;
+  fontSize: string;
+  lineHeight: string;
+  fontWeight: string;
+};
+/** 18px */
+export const componentButtonSizeLgPaddingX: string;
+/** 12px / 0.75rem */
+export const componentButtonSizeLgPaddingY: string;
+/** 6px / 0.375rem */
+export const componentButtonSizeLgGap: string;
+/** 20px */
+export const componentButtonSizeLgIconSize: string;
+export const componentButtonSizeLgBorderWidth: string;
+/** 8px */
+export const componentButtonSizeLgRadius: string;
+export const componentButtonSizeLgTypography: {
+  fontFamily: string;
+  fontSize: string;
+  lineHeight: string;
+  fontWeight: string;
+};
+export const componentButtonFocusRingColor: string;
+export const componentButtonFocusRingWidth: string;
+export const componentButtonFocusRingOffset: string;
+export const componentButtonVariantPrimary: {
+  state: {
+    default: {
+      bg: { value: string; type: string; filePath: string; isSource: boolean };
+      fg: { value: string; type: string; filePath: string; isSource: boolean };
+      border: {
+        value: string;
+        type: string;
+        filePath: string;
+        isSource: boolean;
+      };
+    };
+    hover: {
+      bg: { value: string; type: string; filePath: string; isSource: boolean };
+      fg: { value: string; type: string; filePath: string; isSource: boolean };
+      border: {
+        value: string;
+        type: string;
+        filePath: string;
+        isSource: boolean;
+      };
+    };
+  };
+};

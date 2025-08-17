@@ -127,4 +127,22 @@
   --component-button-size-sm-border-width: 1px;
   --component-button-size-sm-radius: 8px; /** 8px */
   --component-button-size-sm-typography: 600 0.875rem/1.25rem Inter;
+  --component-button-size-md-padding-x: 1rem; /** 16px / 1rem */
+  --component-button-size-md-padding-y: 0.625rem; /** 10px */
+  --component-button-size-md-gap: 0.375rem; /** 6px / 0.375rem */
+  --component-button-size-md-icon-size: 1.25rem; /** 20px */
+  --component-button-size-md-border-width: 1px;
+  --component-button-size-md-radius: 8px; /** 8px */
+  --component-button-size-md-typography: 600 1rem/1.5rem Inter;
+  --component-button-size-lg-padding-x: 1.125rem; /** 18px */
+  --component-button-size-lg-padding-y: 0.75rem; /** 12px / 0.75rem */
+  --component-button-size-lg-gap: 0.375rem; /** 6px / 0.375rem */
+  --component-button-size-lg-icon-size: 1.25rem; /** 20px */
+  --component-button-size-lg-border-width: 1px;
+  --component-button-size-lg-radius: 8px; /** 8px */
+  --component-button-size-lg-typography: 600 1rem/1.5rem Inter;
+  --component-button-focus-ring-color: #000000;
+  --component-button-focus-ring-width: 2px;
+  --component-button-focus-ring-offset: 2px;
+  --component-button-variant-primary: [object Object];
 }
