@@ -36,6 +36,134 @@
                         "value": "{typography.text.sm.semibold}",
                         "type": "typography"
                     }
+                },
+                "md": {
+                    "paddingX": {
+                        "value": "{size.spacing.4}",
+                        "type": "dimension",
+                        "comment": "16px / 1rem"
+                    },
+                    "paddingY": {
+                        "value": "0.625rem",
+                        "type": "dimension",
+                        "comment": "10px"
+                    },
+                    "gap": {
+                        "value": "{size.spacing.1.5}",
+                        "type": "dimension",
+                        "comment": "6px / 0.375rem"
+                    },
+                    "iconSize": {
+                        "value": "1.25rem",
+                        "type": "dimension",
+                        "comment": "20px"
+                    },
+                    "borderWidth": {
+                        "value": "1px",
+                        "type": "dimension"
+                    },
+                    "radius": {
+                        "value": "{radius.md}",
+                        "type": "dimension",
+                        "comment": "8px"
+                    },
+                    "typography": {
+                        "value": "{typography.text.md.semibold}",
+                        "type": "typography"
+                    }
+                },
+                "lg": {
+                    "paddingX": {
+                        "value": "1.125rem",
+                        "type": "dimension",
+                        "comment": "18px"
+                    },
+                    "paddingY": {
+                        "value": "{size.spacing.3}",
+                        "type": "dimension",
+                        "comment": "12px / 0.75rem"
+                    },
+                    "gap": {
+                        "value": "{size.spacing.1.5}",
+                        "type": "dimension",
+                        "comment": "6px / 0.375rem"
+                    },
+                    "iconSize": {
+                        "value": "1.25rem",
+                        "type": "dimension",
+                        "comment": "20px"
+                    },
+                    "borderWidth": {
+                        "value": "1px",
+                        "type": "dimension"
+                    },
+                    "radius": {
+                        "value": "{radius.md}",
+                        "type": "dimension",
+                        "comment": "8px"
+                    },
+                    "typography": {
+                        "value": "{typography.text.md.semibold}",
+                        "type": "typography"
+                    }
+                }
+            },
+            "focus": {
+                "ringColor": {
+                    "value": "{color.base.black}",
+                    "type": "color"
+                },
+                "ringWidth": {
+                    "value": "2px",
+                    "type": "dimension"
+                },
+                "ringOffset": {
+                    "value": "2px",
+                    "type": "dimension"
+                }
+            },
+            "variant": {
+                "primary": {
+                    "bg": {
+                        "default": {
+                            "value": "{color.base.black}",
+                            "type": "color"
+                        },
+                        "hover": {
+                            "value": "{color.gray.950}",
+                            "type": "color"
+                        },
+                        "active": {
+                            "value": "{color.base.black}",
+                            "type": "color"
+                        },
+                        "disabled": {
+                            "value": "{color.base.black}",
+                            "type": "color"
+                        }
+                    },
+                    "fg": {
+                        "value": "{color.base.white}",
+                        "type": "color"
+                    },
+                    "border": {
+                        "value": "{color.base.black}",
+                        "type": "color"
+                    }
+                },
+                "hover": {
+                    "bg": {
+                        "value": "{color.base.black}",
+                        "type": "color"
+                    },
+                    "fg": {
+                        "value": "{color.base.white}",
+                        "type": "color"
+                    },
+                    "border": {
+                        "value": "{color.base.black}",
+                        "type": "color"
+                    }
                 }
             }
         }

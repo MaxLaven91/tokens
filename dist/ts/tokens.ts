@@ -351,3 +351,74 @@ export const componentButtonSizeSmTypography = {
   lineHeight: "1.25rem",
   fontWeight: "600",
 };
+export const componentButtonSizeMdPaddingX = "1rem"; // 16px / 1rem
+export const componentButtonSizeMdPaddingY = "0.625rem"; // 10px
+export const componentButtonSizeMdGap = "0.375rem"; // 6px / 0.375rem
+export const componentButtonSizeMdIconSize = "1.25rem"; // 20px
+export const componentButtonSizeMdBorderWidth = "1px";
+export const componentButtonSizeMdRadius = "8px"; // 8px
+export const componentButtonSizeMdTypography = {
+  fontFamily: "Inter",
+  fontSize: "1rem",
+  lineHeight: "1.5rem",
+  fontWeight: "600",
+};
+export const componentButtonSizeLgPaddingX = "1.125rem"; // 18px
+export const componentButtonSizeLgPaddingY = "0.75rem"; // 12px / 0.75rem
+export const componentButtonSizeLgGap = "0.375rem"; // 6px / 0.375rem
+export const componentButtonSizeLgIconSize = "1.25rem"; // 20px
+export const componentButtonSizeLgBorderWidth = "1px";
+export const componentButtonSizeLgRadius = "8px"; // 8px
+export const componentButtonSizeLgTypography = {
+  fontFamily: "Inter",
+  fontSize: "1rem",
+  lineHeight: "1.5rem",
+  fontWeight: "600",
+};
+export const componentButtonFocusRingColor = "#000000";
+export const componentButtonFocusRingWidth = "2px";
+export const componentButtonFocusRingOffset = "2px";
+export const componentButtonVariantPrimary = {
+  state: {
+    default: {
+      bg: {
+        value: "#000000",
+        type: "color",
+        filePath: "tokens/components/button.json",
+        isSource: true,
+      },
+      fg: {
+        value: "#ffffff",
+        type: "color",
+        filePath: "tokens/components/button.json",
+        isSource: true,
+      },
+      border: {
+        value: "#000000",
+        type: "color",
+        filePath: "tokens/components/button.json",
+        isSource: true,
+      },
+    },
+    hover: {
+      bg: {
+        value: "#000000",
+        type: "color",
+        filePath: "tokens/components/button.json",
+        isSource: true,
+      },
+      fg: {
+        value: "#ffffff",
+        type: "color",
+        filePath: "tokens/components/button.json",
+        isSource: true,
+      },
+      border: {
+        value: "#000000",
+        type: "color",
+        filePath: "tokens/components/button.json",
+        isSource: true,
+      },
+    },
+  },
+};
