@@ -1,21 +1,36 @@
 // style-dictionary.config.mjs
 import StyleDictionary from 'style-dictionary';
 
-// Emit ONLY tokens that come from `source` (your semantic files)
+// Filters
 StyleDictionary.registerFilter({
   name: 'only/semantic',
+  filter: (t) => typeof t.filePath === 'string' && t.filePath.includes('/semantic/')
+});
+StyleDictionary.registerFilter({
+  name: 'only/components',
+  filter: (t) => typeof t.filePath === 'string' && t.filePath.includes('/components/')
+});
+StyleDictionary.registerFilter({
+  name: 'only/published',
   filter: (t) =>
-    t.isSource === true ||
-    (typeof t.filePath === 'string' && t.filePath.includes('/semantic/'))
+    typeof t.filePath === 'string' &&
+    (t.filePath.includes('/semantic/') || t.filePath.includes('/components/'))
 });
 
 export default {
   log: { verbosity: 'verbose' },
 
-  // Build from semantic tokens only…
-  source: ['tokens/semantic/**/*.json'],
-  // …but include primitives/aliases so references resolve
-  include: ['tokens/primitives/**/*.json', 'tokens/aliases/**/*.json'],
+  // Publish semantic + components
+  source: [
+    'tokens/semantic/**/*.json',
+    'tokens/components/**/*.json'
+  ],
+
+  // Load primitives so references resolve (not emitted)
+  include: [
+    'tokens/primitives/**/*.json',
+    'tokens/aliases/**/*.json'
+  ],
 
   platforms: {
     css: {
@@ -23,7 +38,7 @@ export default {
         'attribute/cti',
         'name/kebab',
         'fontFamily/css',
-        'typography/css/shorthand', // turns composite typography into CSS `font` strings
+        'typography/css/shorthand',
         'color/css'
       ],
       buildPath: 'dist/css/',
@@ -31,10 +46,10 @@ export default {
         {
           destination: 'tokens.css',
           format: 'css/variables',
-          filter: 'only/semantic',
+          filter: 'only/published',
           options: {
             selector: ':root',
-            // because primitives are filtered out, resolve refs to concrete values
+            // Components currently mix semantic + primitives → inline concrete values
             outputReferences: false
           }
         }
@@ -45,7 +60,7 @@ export default {
       transforms: ['attribute/cti', 'name/camel', 'color/hex'],
       buildPath: 'dist/json/',
       files: [
-        { destination: 'tokens.json', format: 'json/nested', filter: 'only/semantic' }
+        { destination: 'tokens.json', format: 'json/nested', filter: 'only/published' }
       ]
     },
 
@@ -53,8 +68,8 @@ export default {
       transforms: ['attribute/cti', 'name/camel', 'color/hex'],
       buildPath: 'dist/ts/',
       files: [
-        { destination: 'tokens.d.ts', format: 'typescript/es6-declarations', filter: 'only/semantic' },
-        { destination: 'tokens.ts',   format: 'javascript/es6', options: { outputReferences: false }, filter: 'only/semantic' }
+        { destination: 'tokens.d.ts', format: 'typescript/es6-declarations', filter: 'only/published' },
+        { destination: 'tokens.ts',   format: 'javascript/es6', options: { outputReferences: false }, filter: 'only/published' }
       ]
     }
   }

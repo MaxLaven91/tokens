@@ -1,0 +1,43 @@
+{
+    "component": {
+        "button": {
+            "size": {
+                "sm": {
+                    "paddingX": {
+                        "value": "{size.spacing.3}",
+                        "type": "dimension",
+                        "comment": "12px / 0.75rem"
+                    },
+                    "paddingY": {
+                        "value": "{size.spacing.2}",
+                        "type": "dimension",
+                        "comment": "8px / 0.5rem"
+                    },
+                    "gap": {
+                        "value": "{size.spacing.1}",
+                        "type": "dimension",
+                        "comment": "4px / 0.25rem"
+                    },
+                    "iconSize": {
+                        "value": "1.25rem",
+                        "type": "dimension",
+                        "comment": "20px"
+                    },
+                    "borderWidth": {
+                        "value": "1px",
+                        "type": "dimension"
+                    },
+                    "radius": {
+                        "value": "{radius.md}",
+                        "type": "dimension",
+                        "comment": "8px"
+                    },
+                    "typography": {
+                        "value": "{typography.text.sm.semibold}",
+                        "type": "typography"
+                    }
+                }
+            }
+        }
+    }
+}

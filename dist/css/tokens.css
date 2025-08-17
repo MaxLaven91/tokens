@@ -120,4 +120,11 @@
   --widths-5xl: 100rem; /** 1600px */
   --widths-6xl: 120rem; /** 1920px */
   --widths-paragraph-max-width: 45rem; /** 720px */
+  --component-button-size-sm-padding-x: 0.75rem; /** 12px / 0.75rem */
+  --component-button-size-sm-padding-y: 0.5rem; /** 8px / 0.5rem */
+  --component-button-size-sm-gap: 0.25rem; /** 4px / 0.25rem */
+  --component-button-size-sm-icon-size: 1.25rem; /** 20px */
+  --component-button-size-sm-border-width: 1px;
+  --component-button-size-sm-radius: 8px; /** 8px */
+  --component-button-size-sm-typography: 600 0.875rem/1.25rem Inter;
 }
