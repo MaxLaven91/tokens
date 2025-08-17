@@ -1,3 +1,9 @@
+## [1.0.0-beta.8](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2025-08-17)
+
+### Features
+
+* **color:** add primary button colors ([76b669e](https://github.com/MaxLaven91/tokens/commit/76b669ec69126d9b7e1a1357a4660115ac4730f8))
+
 ## [1.0.0-beta.7](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2025-08-17)
 
 ### Features
