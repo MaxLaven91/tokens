@@ -63,7 +63,7 @@
                         "type": "dimension"
                     },
                     "radius": {
-                        "value": "{radius.md}",
+                        "value": "{radius.full}",
                         "type": "dimension",
                         "comment": "8px"
                     },
@@ -126,7 +126,7 @@
                 "primary": {
                     "bg": {
                         "default": {
-                            "value": "{color.brand.600}",
+                            "value": "{color.base.black}",
                             "type": "color"
                         },
                         "hover": {
