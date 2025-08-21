@@ -356,7 +356,7 @@ export const componentButtonSizeMdPaddingY = "0.625rem"; // 10px
 export const componentButtonSizeMdGap = "0.375rem"; // 6px / 0.375rem
 export const componentButtonSizeMdIconSize = "1.25rem"; // 20px
 export const componentButtonSizeMdBorderWidth = "1px";
-export const componentButtonSizeMdRadius = "8px"; // 8px
+export const componentButtonSizeMdRadius = "9999px"; // 8px
 export const componentButtonSizeMdTypography = {
   fontFamily: "Inter",
   fontSize: "1rem",
@@ -378,7 +378,7 @@ export const componentButtonSizeLgTypography = {
 export const componentButtonFocusRingColor = "#000000";
 export const componentButtonFocusRingWidth = "2px";
 export const componentButtonFocusRingOffset = "2px";
-export const componentButtonVariantPrimaryBgDefault = "#0f766e";
+export const componentButtonVariantPrimaryBgDefault = "#000000";
 export const componentButtonVariantPrimaryBgHover = "#115e59";
 export const componentButtonVariantPrimaryBgActive = "#115e59";
 export const componentButtonVariantPrimaryBgDisabled = "#f0f0f0";

@@ -132,7 +132,7 @@
   --component-button-size-md-gap: 0.375rem; /** 6px / 0.375rem */
   --component-button-size-md-icon-size: 1.25rem; /** 20px */
   --component-button-size-md-border-width: 1px;
-  --component-button-size-md-radius: 8px; /** 8px */
+  --component-button-size-md-radius: 9999px; /** 8px */
   --component-button-size-md-typography: 600 1rem/1.5rem Inter;
   --component-button-size-lg-padding-x: 1.125rem; /** 18px */
   --component-button-size-lg-padding-y: 0.75rem; /** 12px / 0.75rem */
@@ -144,7 +144,7 @@
   --component-button-focus-ring-color: #000000;
   --component-button-focus-ring-width: 2px;
   --component-button-focus-ring-offset: 2px;
-  --component-button-variant-primary-bg-default: #0f766e;
+  --component-button-variant-primary-bg-default: #000000;
   --component-button-variant-primary-bg-hover: #115e59;
   --component-button-variant-primary-bg-active: #115e59;
   --component-button-variant-primary-bg-disabled: #f0f0f0;
