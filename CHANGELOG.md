@@ -1,3 +1,9 @@
+## [1.0.0-beta.10](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2025-08-21)
+
+### Features
+
+* build new tokens ([588dd5d](https://github.com/MaxLaven91/tokens/commit/588dd5dee40cecc3bb17f9f43ad489ea9ec37391))
+
 ## [1.0.0-beta.9](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.8...v1.0.0-beta.9) (2025-08-21)
 
 ### Features
