@@ -1,3 +1,9 @@
+## [1.0.0-beta.11](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2025-08-21)
+
+### Features
+
+* **typography:** update button and font tokens ([5289726](https://github.com/MaxLaven91/tokens/commit/52897269a4d60948279c07843364670902832e24))
+
 ## [1.0.0-beta.10](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2025-08-21)
 
 ### Features
