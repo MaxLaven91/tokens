@@ -1,3 +1,9 @@
+## [1.0.0-beta.9](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.8...v1.0.0-beta.9) (2025-08-21)
+
+### Features
+
+* **color:** amend button bg ([b8003e1](https://github.com/MaxLaven91/tokens/commit/b8003e150bce9986c60288c5f4a3ae3b9f84e2a4))
+
 ## [1.0.0-beta.8](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2025-08-17)
 
 ### Features
