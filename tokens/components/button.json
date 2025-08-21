@@ -130,11 +130,11 @@
                             "type": "color"
                         },
                         "hover": {
-                            "value": "{color.brand.700}",
+                            "value": "{color.brand.950}",
                             "type": "color"
                         },
                         "active": {
-                            "value": "{color.brand.700}",
+                            "value": "{color.brand.950}",
                             "type": "color"
                         },
                         "disabled": {

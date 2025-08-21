@@ -1,8 +1,8 @@
 {
   "font": {
     "family": {
-      "display": { "value": "Inter", "type": "fontFamily" },
-      "body": { "value": "Inter", "type": "fontFamily" }
+      "display": { "value": "Geist Sans, system-ui, sans-serif", "type": "fontFamily" },
+      "body": { "value": "Geist Sans, system-ui, sans-serif", "type": "fontFamily" }
     },
     "weight": {
       "regular":  { "value": "400", "type": "fontWeight" },
