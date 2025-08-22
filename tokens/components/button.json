@@ -33,7 +33,7 @@
                         "comment": "8px"
                     },
                     "typography": {
-                        "value": "{typography.text.sm.semibold}",
+                        "value": "{typography.text.sm.medium}",
                         "type": "typography"
                     }
                 },
@@ -68,7 +68,7 @@
                         "comment": "8px"
                     },
                     "typography": {
-                        "value": "{typography.text.md.semibold}",
+                        "value": "{typography.text.md.medium}",
                         "type": "typography"
                     }
                 },
@@ -103,7 +103,7 @@
                         "comment": "8px"
                     },
                     "typography": {
-                        "value": "{typography.text.md.semibold}",
+                        "value": "{typography.text.md.medium}",
                         "type": "typography"
                     }
                 }
@@ -154,15 +154,15 @@
                     },
                     "border": {
                         "default": {
-                            "value": "{color.brand.600}",
+                            "value": "{color.base.black}",
                             "type": "color"
                         },
                         "hover": {
-                            "value": "{color.brand.700}",
+                            "value": "{color.brand.950}",
                             "type": "color"
                         },
                         "active": {
-                            "value": "{color.brand.700}",
+                            "value": "{color.brand.950}",
                             "type": "color"
                         },
                         "disabled": {
