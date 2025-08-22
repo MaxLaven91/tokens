@@ -1,3 +1,9 @@
+## [1.0.0-beta.12](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2025-08-22)
+
+### Features
+
+* **typography:** update button typography weights and colors ([4a726e4](https://github.com/MaxLaven91/tokens/commit/4a726e4bfca24d39a6110ab2d0dec27c220d0fed))
+
 ## [1.0.0-beta.11](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2025-08-21)
 
 ### Features
