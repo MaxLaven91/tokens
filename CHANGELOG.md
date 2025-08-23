@@ -1,3 +1,9 @@
+## [1.0.0-beta.13](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2025-08-23)
+
+### Bug Fixes
+
+* update package version to 1.0.0-beta.12 in package-lock.json ([9f75b3b](https://github.com/MaxLaven91/tokens/commit/9f75b3b0fdfd85aef3d14cba0f4e6f768b2085dd))
+
 ## [1.0.0-beta.12](https://github.com/MaxLaven91/tokens/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2025-08-22)
 
 ### Features
